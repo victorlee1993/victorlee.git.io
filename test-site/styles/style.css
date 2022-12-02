@@ -1,0 +1,39 @@
+/*css文件的注释*/
+html{
+    font-size: 10px;
+    font-family: 'Open Sans',sans-serif;
+    background-color: #00539f;
+}
+
+body{
+    width: 600px;
+    margin: 0 auto;
+    background-color: #ff9500;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+}
+
+h3{
+    font-size: 50px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    color: #00539f;
+    /*text-shadow：设置阴影，四个值分别表示水平偏移值、垂直偏移值、模糊半径和阴影基色
+    水平偏移值：阴影右移的像素(负值左移)
+    垂直偏移值：阴影下移的像素(负值上移)
+    模糊半径：值越大产生的阴影越模糊*/
+    text-shadow: 3px 3px 1px black;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+}
+
+a,p,li{
+    font-size: 17px;
+    /*line-height后面可以跟不同的参数，如果是数字，就是当前字体大小乘上数字*/
+    line-height: 2;
+    letter-spacing: 1px;
+}
